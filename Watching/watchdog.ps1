@@ -3,7 +3,7 @@ THIS SCRIPT LOGS CHANGES IN FIREWALL AND SSH AND RDP SESSIONS. THIS WILL LOG INT
 #>
 
 $servicesToMonitor = @("TermService","wuauserv","MSSQLSERVER")
-$portsToCheck = @{ "RDP" = 3389; "SSH" = 22; "HTTP" = 80; "MySQL" = 3306 }
+$portsToCheck = @{ "RDP" = 3389; "SSH" = 22; "FTP" = 21; "MySQL" = 3306 }
 $checkIntervalSec = 1
 $discordWebhook = Read-Host -Prompt "Enter Discord Webhook URL (required)"
 if ([string]::IsNullOrWhiteSpace($discordWebhook)) { Write-Host "Webhook required. Exiting."; exit 1 }
