@@ -1,6 +1,6 @@
 # PowerShell Scripts
 
-**A small collection of PowerShell scripts used during Hack@UCF IHPL.**
+**A small collection of PowerShell scripts used during Hack@UCF IHPL 2025.**
 
 ---
 
