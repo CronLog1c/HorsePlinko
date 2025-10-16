@@ -1,4 +1,4 @@
-# Horse Plink Scripts
+# PowerShell Scripts
 
 **A small collection of PowerShell scripts that was used at Hack@UCF IHPL.**  
 ---
