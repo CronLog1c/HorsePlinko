@@ -42,7 +42,7 @@ powershell -ExecutionPolicy Bypass -File .\Watchdog-Monitor.ps1
 ```
 ---
 # Learning
--https://github.com/mubix/howtowinccdc
+- https://github.com/mubix/howtowinccdc
 
 - https://docs.google.com/document/d/13Ozs8XY0mEgFQ3cnbVhd5RV3OmBXIBuZMLhPSGonsuE/edit?tab=t.0#heading=h.gjojmcvrvz18
 
