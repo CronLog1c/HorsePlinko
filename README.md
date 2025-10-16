@@ -36,9 +36,9 @@ Note: Firewall rule detection is reliable but others not so much.
 ## Usage
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\Reset-AllPasswords.ps1
-powershell -ExecutionPolicy Bypass -File .\User-Audit-And-Remove.ps1
-powershell -ExecutionPolicy Bypass -File .\Watchdog-Monitor.ps1
+powershell -ExecutionPolicy Bypass -File .\passwords.ps1
+powershell -ExecutionPolicy Bypass -File .\users.ps1
+powershell -ExecutionPolicy Bypass -File .\watchdog.ps1
 ```
 ---
 # Learning
